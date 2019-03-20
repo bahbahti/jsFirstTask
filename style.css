@@ -1,0 +1,34 @@
+
+.raz { 
+  -moz-appearance: textfield;
+}
+.raz::-webkit-inner-spin-button { 
+  display: none;
+}
+/* Нечетные строки */
+.table tbody tr:nth-child(odd){
+    background: #20B2AA;
+}
+
+/* Четные строки */
+.table  tbody tr:nth-child(even){
+    background: #98FB98;
+}
+/*Первая строка */
+.table thead tr{
+    background: #F5F5F5;
+
+}
+label {
+    font-family: Comic Sans, "Comic Sans MS", cursive;
+}
+
+div p {
+	font-family: Comic Sans, "Comic Sans MS", cursive;
+	font-size: 20px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+}
+
+
